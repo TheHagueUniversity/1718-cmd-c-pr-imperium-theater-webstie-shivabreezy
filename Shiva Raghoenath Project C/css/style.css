@@ -156,6 +156,20 @@ header{
 	height: 84px;
 }
 
+.logo img{
+	border-width: 0px;
+	position: absolute;
+	left: 42px;
+	top: 12px;
+	width: 98px;
+	height: 84px;
+	transition:all 0.3s ease;
+}
+
+.logo img:hover{
+	opacity: 0.5;
+}
+
 .line{
 	border-width: 0px;
 	position: absolute;
