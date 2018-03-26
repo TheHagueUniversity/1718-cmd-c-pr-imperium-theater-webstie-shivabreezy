@@ -4,7 +4,7 @@ body{
 	font-family: Montserrat;
 	color: #333333;
 }
-								
+
 h1, h2, h3, h4{
 	text-transform: uppercase;
 	color: #D61549;
@@ -29,12 +29,17 @@ footer{
 	height: 170px;
 }
 
-.hoofdmenu {
-	overflow: hidden;
-	font-family: Montserrat, sans-serif;
-	text-transform: uppercase;
-	padding: 40px;
+header{
+	padding: 70px;
+}
 
+.hoofdmenu {
+	border-width: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 120px;
+	opacity: 0.95;
 }
 
 .hoofdmenu a {
@@ -45,6 +50,7 @@ footer{
 	padding: 14px 20px;
 	text-decoration: none;
 	transition:all 0.3s ease;
+	text-transform: uppercase;
 }
 
 .dropdown {
@@ -103,7 +109,12 @@ footer{
 }
 
 .nav{
-	float: right;
+	border-width: 0px;
+	position: absolute;
+	left: 500px;
+	top: 37px;
+	width: 940px;
+	height: 40px;
 }
 
 .section1{
@@ -134,4 +145,23 @@ footer{
 	border: 1px solid #D61549;
 	color: #D61549;
 	border-radius: 6px;
+}
+
+.logo img{
+	border-width: 0px;
+	position: absolute;
+	left: 42px;
+	top: 12px;
+	width: 98px;
+	height: 84px;
+}
+
+.line{
+	border-width: 0px;
+	position: absolute;
+	left: 40px;
+	top: 100px;
+	width: 1159px;
+	height: 3px;
+	opacity: 0.2;
 }
