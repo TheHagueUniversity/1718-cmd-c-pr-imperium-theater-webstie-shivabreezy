@@ -34,7 +34,6 @@ footer{
 	font-family: Montserrat, sans-serif;
 	text-transform: uppercase;
 	padding: 40px;
-	float: right;
 }
 
 .hoofdmenu a {
@@ -91,6 +90,45 @@ footer{
 
 .dropdown:hover .dropdown-content {
 	display: block;
+}
+
+.banner-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+.nav{
+	float: right;
+}
+
+.section1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	padding-top: 70px;
+}
+
+.section1 img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+}
+
+.section1 p{
+	width: 40%;
+}
+
+.section2 img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.section2 p{
+	width: 40%;
 }
 
 .ghost{
