@@ -38,8 +38,8 @@ footer{
 
 .hoofdmenu a {
 	float: left;
-	font-size: 16px;
-	color: #505050;
+	font-size: 14px;
+	color: #333333;
 	text-align: center;
 	padding: 14px 20px;
 	text-decoration: none;
@@ -51,11 +51,11 @@ footer{
 }
 
 .dropdown .dropdown-knop {
-	font-size: 16px;
+	font-size: 14px;
 	border: none;
 	text-transform: uppercase;
 	outline: none;
-	color: #505050;
+	color: #333333;
 	padding: 14px 16px;
 	background-color: inherit;
 	font-family: inherit;
@@ -77,7 +77,7 @@ footer{
 .dropdown-content a {
 	float: none;
 	color: #FFF;
-	padding: 12px 16px;
+	padding: 8px 5px;
 	text-decoration: none;
 	display: block;
 	text-align: center;
