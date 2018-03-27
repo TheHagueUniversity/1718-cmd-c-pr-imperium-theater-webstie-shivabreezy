@@ -30,7 +30,7 @@ fieldset{
 footer{
 	background-color: #505050;
 	color: #FFF;
-	padding: 20px;
+	padding: 10px;
 }
 
 header{
@@ -248,4 +248,18 @@ header{
 	width: 25%;
 	padding: 10px 36px;
 	padding-top: 50px;
+}
+
+.social-icon{
+    width: 15%;
+	transition:all 0.3s ease;
+}
+
+.social-icon:hover, .wittelogo:hover{
+	opacity: 0.5;
+}
+
+.wittelogo{
+	width: 30%;
+	transition:all 0.3s ease;
 }
