@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99470728-617c-474f-bcce-2fdd5d58f376" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html" />
+      <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,23 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fotoboek.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-              <folding>
-                <marker date="1522230695654" expanded="true" signature="1540:1730" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
               <caret line="224" column="13" lean-forward="true" selection-start-line="224" selection-start-column="13" selection-end-line="224" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agenda.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="104" column="10" lean-forward="false" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -80,7 +77,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/home.html" />
-        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html" />
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/bevestiging.html" />
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/contact.html" />
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/faciliteiten.html" />
@@ -89,6 +85,7 @@
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/huren.html" />
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css" />
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html" />
+        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html" />
       </list>
     </option>
   </component>
@@ -205,12 +202,12 @@
       <workItem from="1522161912415" duration="782000" />
       <workItem from="1522168137535" duration="2214000" />
       <workItem from="1522174938560" duration="968000" />
-      <workItem from="1522225838177" duration="3381000" />
+      <workItem from="1522225838177" duration="3640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30732000" />
+    <option name="totallyTimeSpent" value="30991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="825" extended-state="0" />
@@ -399,14 +396,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/bevestiging.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -465,6 +454,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+          <folding>
+            <marker date="1522230695654" expanded="true" signature="1540:1730" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -473,13 +472,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html">
+    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-          <folding>
-            <marker date="1522230695654" expanded="true" signature="1540:1730" ph="..." />
-          </folding>
+          <caret line="104" column="10" lean-forward="false" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
