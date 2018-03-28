@@ -300,3 +300,7 @@ label {
 a.active{
 	color:#D61549;;
 }
+
+a.disabled:hover{
+	color: #e4e4e4;
+}
