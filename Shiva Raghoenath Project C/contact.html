@@ -41,19 +41,42 @@
 <h1>Contact</h1>
 
 <p>Via onderstaand formulier is het mogelijk om een bericht te sturen naar Imperium. Dit formulier is niet bedoeld voor het reserveren van kaarten. Dat kan via deze <a href="#">link.</a></p>
-<label>Voornaam:</label>
-<input type="text" name="voornaam" id="voornaam">
-<p>* Verplicht veld</p>
-<label>Achternaam:</label>
-<input type="text" name="achternaam">
-<p>* Verplicht veld</p>
-<label>Onderwerp:</label>
-<input type="text" name="onderwerp">
-<p>* Verplicht veld</p>
-<label>Uw bericht:</label>
-<input type="text" name="onderwerp">
-<p>* Verplicht veld</p>
-<input type="submit" value="Verzend">
+<div class="form">
+	<form>
+		<div class="row">
+			<div class="table1">
+				<label for="voornaam">Voornaam:</label>
+			</div>
+			<div class="table2">
+				<input type="text" id="voornaam" name="voornaam" placeholder="Vul hier uw voornaam in.">
+			</div>
+		</div>
+		<div class="row">
+			<div class="table1">
+				<label for="achternaam">Achternaam:</label>
+			</div>
+			<div class="table2">
+				<input type="text" id="achternaam" name="achternaam" placeholder="Vul hier uw achternaam in.">
+			</div>
+		</div>
+		<div class="row">
+			<div class="table1">
+				<label for="onderwerp">Onderwerp:</label>
+			</div>
+			<div class="table2">
+				<input type="text" id="onderwerp" name="onderwerp" placeholder="Vul hier uw onderwerp in.">
+			</div>
+		</div>
+		<div class="row">
+			<div class="table1">
+				<label for="onderwerp">Uw bericht:</label>
+			</div>
+			<div class="table2">
+				<textarea id="onderwerp" name="onderwerp" placeholder="Vul hier uw bericht in." style="height:240px"></textarea>
+			</div>
+		</div>
+	</form>
+</div>
 
 <aside>
 	<fieldset>
