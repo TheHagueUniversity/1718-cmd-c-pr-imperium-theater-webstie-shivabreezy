@@ -296,3 +296,7 @@ label {
 	display: table;
 	clear: both;
 }
+
+a.active{
+	color:#D61549;;
+}
