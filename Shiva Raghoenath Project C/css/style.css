@@ -21,6 +21,10 @@ button{
 	transition:all 0.3s ease;
 }
 
+main{
+	padding: 0px 35px;
+}
+
 button:hover{
 	opacity: 0.3;
 }
