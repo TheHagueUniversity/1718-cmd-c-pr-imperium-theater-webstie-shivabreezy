@@ -22,18 +22,11 @@ button{
 }
 
 main{
-	padding: 0px 35px;
+	padding: 0px 33px;
 }
 
 button:hover{
 	opacity: 0.3;
-}
-
-.fieldset{
-	background-color: #D61549;
-	border: none;
-	padding: 50px;
-	color: #FFF;
 }
 
 footer{
@@ -169,6 +162,7 @@ dd {
 	border: 1px solid #D61549;
 	color: #D61549;
 	border-radius: 6px;
+	float: right;
 }
 
 .logo img{
@@ -303,6 +297,7 @@ input[type=submit]{
 	padding: 10px 20px;
 	text-transform: uppercase;
 	transition:all 0.3s ease;
+	float: right;
 }
 
 input[type=submit]:hover{
@@ -368,4 +363,19 @@ a.disabled:hover{
 
 .date2{
 	background-color: #AEAEAE;
+}
+
+.footer-text{
+	text-transform: uppercase;
+}
+
+.contact-box{
+	background-color: #D61549;
+	color: #FFFFFF;
+	padding: 15px;
+	width: 50%;
+}
+
+.contact-box h2{
+	color: #FFFFFF;
 }
