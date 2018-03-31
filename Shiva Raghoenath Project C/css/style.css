@@ -10,7 +10,7 @@ h1, h2, h3, h4{
 	color: #D61549;
 }
 
-p{
+p, dl, ol{
 	font-size: 13px;
 	width: 90%;
 }
@@ -110,7 +110,7 @@ header{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	width: 95%;
 }
 
 .nav{
@@ -237,11 +237,10 @@ header{
 	width: 85%;
 }
 
-.col-banner{
+.banner{
 	float: left;
 	width: 100%;
 	padding: 10px 36px;
-	padding-top: 50px;
 }
 
 .col-footer{
@@ -280,7 +279,14 @@ label {
 	display: inline-block;
 }
 
-.table1 {
+article, section{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 90px;
+}
+
+.label {
 	float: left;
 	width: 14%;
 }
@@ -299,7 +305,12 @@ a.disabled:hover{
 	color: #e4e4e4;
 }
 
-.bordertje{
-	color:white;
-	background-color: #D61549;
+.link{
+	color: #D61549;
+	transition:all 0.3s ease;
+	font-size: 13px;
+}
+
+.link:hover{
+	opacity: 0.3;
 }

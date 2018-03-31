@@ -9,10 +9,9 @@
       <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css" />
       <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/faciliteiten.html" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/faciliteiten.html" />
       <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html" />
-      <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/home.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/huren.html" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/huren.html" />
+      <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/index.html" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/index.html" />
       <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/informatie.html" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/informatie.html" />
-      <change beforePath="$PROJECT_DIR$/Shiva Raghoenath Project C/verzending.html" afterPath="$PROJECT_DIR$/Shiva Raghoenath Project C/verzending.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +22,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="701">
+              <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bevestiging.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/bevestiging.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="huren.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/huren.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="90" column="10" lean-forward="false" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agenda.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="95" column="22" lean-forward="false" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fotoboek.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="91" column="23" lean-forward="false" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="informatie.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/informatie.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="70" column="56" lean-forward="false" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="385">
+              <caret line="310" column="19" lean-forward="false" selection-start-line="310" selection-start-column="19" selection-end-line="310" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -37,27 +106,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#D61549</find>
-      <find>float: right</find>
-      <find>opac</find>
-      <find>logo</find>
-      <find>section2</find>
-      <find>section</find>
-      <find>section1</find>
-      <find>banner</find>
-      <find>banner-img</find>
-      <find>ghost</find>
-      <find>transi</find>
-      <find>hover</find>
-      <find>&lt;a hre</find>
       <find>margin-</find>
       <find>foot</find>
-      <find>footer</find>
       <find>body</find>
       <find>&lt;&gt;</find>
       <find>column</find>
       <find>column3</find>
-      <find>a</find>
       <find>#D</find>
       <find>dropdown-content</find>
       <find>nav</find>
@@ -67,6 +121,21 @@
       <find>toneel</find>
       <find>&lt;h2&gt;Toneel&lt;</find>
       <find>&lt;h2&gt;Toneel&lt;/h2&gt;</find>
+      <find>section</find>
+      <find>col-banner</find>
+      <find>footer</find>
+      <find>&amp;</find>
+      <find>subwoofer</find>
+      <find>img</find>
+      <find>http</find>
+      <find>form</find>
+      <find>.form</find>
+      <find>table1</find>
+      <find>margin-right</find>
+      <find>margin-rig</find>
+      <find>article</find>
+      <find>banner</find>
+      <find>a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,16 +145,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/home.html" />
-        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css" />
-        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/index.html" />
-        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html" />
-        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/bevestiging.html" />
-        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/contact.html" />
-        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/faciliteiten.html" />
-        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html" />
-        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/huren.html" />
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/verzending.html" />
+        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/index.html" />
+        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/faciliteiten.html" />
+        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css" />
+        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html" />
+        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html" />
         <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/informatie.html" />
+        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/contact.html" />
+        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/bevestiging.html" />
+        <option value="$PROJECT_DIR$/Shiva Raghoenath Project C/huren.html" />
       </list>
     </option>
   </component>
@@ -211,18 +280,20 @@
       <workItem from="1522354134714" duration="236000" />
       <workItem from="1522354442619" duration="154000" />
       <workItem from="1522354670826" duration="1000" />
-      <workItem from="1522355494939" duration="346000" />
+      <workItem from="1522355494939" duration="567000" />
+      <workItem from="1522442162724" duration="8049000" />
+      <workItem from="1522484696381" duration="2229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37042000" />
+    <option name="totallyTimeSpent" value="47541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19027181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19527897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3109589" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
@@ -257,7 +328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1853">
           <caret line="109" column="26" lean-forward="false" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -273,7 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -281,7 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
           <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -313,7 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="104" column="26" lean-forward="false" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -321,7 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -329,7 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1853">
           <caret line="109" column="26" lean-forward="false" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -345,7 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -353,7 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
           <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -369,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,58 +577,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/home.html" />
-    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/bevestiging.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/faciliteiten.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/huren.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="258">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -579,18 +593,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/agenda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="95" column="22" lean-forward="false" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/fotoboek.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="91" column="23" lean-forward="false" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/informatie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+        <state relative-caret-position="320">
+          <caret line="70" column="56" lean-forward="false" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="385">
+          <caret line="310" column="19" lean-forward="false" selection-start-line="310" selection-start-column="19" selection-end-line="310" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/bevestiging.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiva Raghoenath Project C/huren.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="90" column="10" lean-forward="false" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
           <folding />
         </state>
       </provider>
