@@ -38,56 +38,52 @@
 	</nav>
 </header>
 
-<p><a href="home.html">Home</a> > Theater huren > Huren</p>
+<p><a href="index.html" class="link">Home</a> > Theater huren > Huren</p>
 <h1>Theater huren</h1>
 
 <section>
-<fieldset>
-	<label>Contactpersoon:</label>
-	<br>
-	<input type="text" name="naam">
-	<br>
-	<input type="radio" name="geslacht" value="man"> Man
-	<input type="radio" name="ge" value="vrouw"> Vrouw
-	<br>
-	<label>Organisatie:</label>
-	<input type="text" name="achternaam">
-	<br>
-	<label>Soort evenement:</label>
-	<input type="email" name="email">
-	<br>
-	<label>E-mailadres:</label>
-	<input type="number" name="tel">
-	<br>
-	<label>Telefoonnummer:</label>
-	<input type="number" name="tel">
-</fieldset>
-</section>
+	<form action="bevestiging.html" method="get" id="huren">
+		<div class="fieldset">
+			<label>Contactpersoon:</label>
+			<input type="text" name="naam" placeholder="Vul hier uw voor- en achternaam in.">
+			<label>Aanhef:</label>
+			<select name="aanhef" form="huren">
+				<option value="" disabled selected>Selecteer uw geslacht</option>
+				<option value="man">Man</option>
+				<option value="vrouw">Vrouw</option>
+			</select>
+			<br>
+			<label>Organisatie:</label>
+			<input type="text" name="organisatie" placeholder="Vul hier uw organisatie in.">
+			<label>Soort evenement:</label>
+			<input type="text" name="evenement" placeholder="Vul hier uw soort evenement in.">
+			<label>E-mailadres:</label>
+			<input type="email" name="email" placeholder="Vul hier uw e-mailadres in.">
+			<label>Telefoonnummer:</label>
+			<input type="number" name="tel" placeholder="Vul hier uw telefoonnummer in.">
+		</div>
 
-<section>
-<label>Begintijd:</label>
-<input type="time" name="tijd">
-<br>
-<label>Eindtijd:</label>
-<input type="time" name="tijd">
-<br>
-<label>Gewenste datum:</label>
-<input type="date" name="datum">
-<br>
-<label>Faciliteiten:</label>
-<input type="checkbox" name="toneel" value="toneel">Toneel 
-<input type="checkbox" name="decor" value="decor">Decor 
-<input type="checkbox" name="geluid" value="geluid">Geluid 
-<input type="checkbox" name="licht" value="licht">Licht 
-<input type="checkbox" name="projectie" value="projectie">Projectie
-<input type="checkbox" name="afsluitering" value="afsluitering">Afsluitering
-<input type="checkbox" name="overig" value="overig">Overig
-<br>
-<label>Voorzieningen</label>
-<input type="checkbox" name="toneel" value="toneel">Barpersoneel 
-<input type="checkbox" name="decor" value="decor">Technische ondersteuning
-<br>
-<input type="submit" value="Verzend" onclick="window.location='bevestiging.html';">
+		<label>Begintijd:</label>
+		<input type="time" name="tijd">
+		<label>Eindtijd:</label>
+		<input type="time" name="tijd">
+		<label>Gewenste datum:</label>
+		<input type="date" name="datum">
+		<label>Faciliteiten:</label>
+		<input type="checkbox" name="toneel" value="toneel">Toneel
+		<input type="checkbox" name="decor" value="decor">Decor
+		<input type="checkbox" name="geluid" value="geluid">Geluid
+		<input type="checkbox" name="licht" value="licht">Licht
+		<input type="checkbox" name="projectie" value="projectie">Projectie
+		<input type="checkbox" name="afsluitering" value="afsluitering">Afsluitering
+		<input type="checkbox" name="overig" value="overig">Overig
+			<br>
+		<label>Voorzieningen</label>
+		<input type="checkbox" name="toneel" value="toneel">Barpersoneel
+		<input type="checkbox" name="decor" value="decor">Technische ondersteuning
+		<br>
+		<input type="submit" value="Verzend" onclick="window.location='bevestiging.html';">
+	</form>
 </section>
 <footer>
 	<div class="row">

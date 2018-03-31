@@ -10,18 +10,22 @@ h1, h2, h3, h4{
 	color: #D61549;
 }
 
-p, dl, ol{
+p, dl, ol, label{
 	font-size: 13px;
-	width: 90%;
 }
 
 button{
 	font-family: Montserrat;
 	padding: 5px 10px;
 	text-transform: uppercase;
+	transition:all 0.3s ease;
 }
 
-fieldset{
+button:hover{
+	opacity: 0.3;
+}
+
+.fieldset{
 	background-color: #D61549;
 	border: none;
 	padding: 50px;
@@ -49,11 +53,13 @@ dd {
 
 .hoofdmenu {
 	border-width: 0px;
-	position: absolute;
+	position: fixed;
 	left: 0px;
-	top: 0px;
+	top: 0;
 	height: 120px;
 	opacity: 0.95;
+	width: 100%;
+	background-color: #FFFFFF;
 }
 
 .hoofdmenu a {
@@ -273,7 +279,7 @@ dd {
 	transition:all 0.3s ease;
 }
 
-input[type=text], select, textarea {
+input[type=text], input[type=email], input[type=number], input[type=date], input[type=time], select, textarea {
 	width: 100%;
 	padding: 12px;
 	border: 2px solid #e4e4e4;
@@ -283,6 +289,21 @@ input[type=text], select, textarea {
 	font-size: 13px;
 }
 
+input[type=submit]{
+	order: 1px solid #D61549;
+	color: #FFFFFF;
+	background-color: #D61549;
+	border-radius: 6px;
+	border-style: none;
+	font-family: Montserrat;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	transition:all 0.3s ease;
+}
+
+input[type=submit]:hover{
+	opacity: 0.3;
+}
 label {
 	padding: 12px 12px 12px 0;
 	display: inline-block;
