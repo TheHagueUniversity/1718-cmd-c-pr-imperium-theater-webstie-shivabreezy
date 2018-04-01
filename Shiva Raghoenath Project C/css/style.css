@@ -10,7 +10,7 @@ h1, h2, h3, h4{
 	color: #D61549;
 }
 
-p, dl, ol, label{
+p, dl, ol, label, span{
 	font-size: 13px;
 }
 
@@ -22,11 +22,9 @@ button{
 }
 
 main{
-	padding: 0px 33px;
-}
-
-button:hover{
-	opacity: 0.3;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer{
@@ -46,6 +44,61 @@ dt {
 dd {
 	margin: 0;
 	padding: 0px 0px 5px 0px
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type=text], input[type=email], input[type=number], input[type=date], input[type=time], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 2px solid #e4e4e4;
+	border-radius: 17px;
+	resize: vertical;
+	font-family: Montserrat;
+	font-size: 13px;
+}
+
+input[type=submit]{
+	order: 1px solid #D61549;
+	color: #FFFFFF;
+	background-color: #D61549;
+	border-radius: 6px;
+	border-style: none;
+	font-family: Montserrat;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	transition:all 0.3s ease;
+	float: right;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	opacity: 0.3;
+}
+
+::placeholder{
+	color: #999999;
+}
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+article, section{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 90px;
+}
+
+a.active{
+	color:#D61549;;
+}
+
+a.disabled:hover{
+	color: #e4e4e4;
 }
 
 .hoofdmenu {
@@ -163,6 +216,23 @@ dd {
 	color: #D61549;
 	border-radius: 6px;
 	float: right;
+	transition:all 0.3s ease;
+}
+
+.ghost{
+	cursor: pointer;
+}
+
+.ghost:hover{
+	opacity: 0.3;
+}
+
+
+.ghost-disabled{
+	border: 1px solid #AEAEAE;
+	color: #AEAEAE;
+	border-radius: 6px;
+	float: right;
 }
 
 .logo img{
@@ -206,9 +276,7 @@ dd {
 	width: 50%;
 }
 
-* {
-	box-sizing: border-box;
-}
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -277,43 +345,6 @@ dd {
 	transition:all 0.3s ease;
 }
 
-input[type=text], input[type=email], input[type=number], input[type=date], input[type=time], select, textarea {
-	width: 100%;
-	padding: 12px;
-	border: 2px solid #e4e4e4;
-	border-radius: 17px;
-	resize: vertical;
-	font-family: Montserrat;
-	font-size: 13px;
-}
-
-input[type=submit]{
-	order: 1px solid #D61549;
-	color: #FFFFFF;
-	background-color: #D61549;
-	border-radius: 6px;
-	border-style: none;
-	font-family: Montserrat;
-	padding: 10px 20px;
-	text-transform: uppercase;
-	transition:all 0.3s ease;
-	float: right;
-}
-
-input[type=submit]:hover{
-	opacity: 0.3;
-}
-label {
-	padding: 12px 12px 12px 0;
-	display: inline-block;
-}
-
-article, section{
-	width: 95%;
-	margin-right: auto;
-	margin-left: auto;
-	padding-bottom: 90px;
-}
 
 .label {
 	float: left;
@@ -326,21 +357,15 @@ article, section{
 	margin-top: 6px;
 }
 
-a.active{
-	color:#D61549;;
-}
 
-a.disabled:hover{
-	color: #e4e4e4;
-}
 
-.link, .link2{
+.link, .link2, .link-disabled{
 	color: #D61549;
 	transition:all 0.3s ease;
 	font-size: 13px;
 }
 
-.link:hover, .link2:hover{
+.link:hover{
 	opacity: 0.3;
 }
 
@@ -348,9 +373,15 @@ a.disabled:hover{
 	float: right;
 	margin: 0px 50px;
 	margin-top: 30px;
+	color: #AEAEAE;
 }
 
-.date, .date2{
+.link-disabled{
+	color: #AEAEAE;
+	font-size: 13px;
+}
+
+.date, .date-disabled{
 	display: inline-block;
 	height: 90px;
 	background-color: #D61549;
@@ -361,7 +392,7 @@ a.disabled:hover{
 	font-size: 40px;
 }
 
-.date2{
+.date-disabled{
 	background-color: #AEAEAE;
 }
 
@@ -378,4 +409,14 @@ a.disabled:hover{
 
 .contact-box h2{
 	color: #FFFFFF;
+}
+
+.selector{
+	text-decoration: none;
+	color: #D61549;
+	transition:all 0.3s ease;
+}
+
+.selector:hover{
+	opacity: 0.3;
 }

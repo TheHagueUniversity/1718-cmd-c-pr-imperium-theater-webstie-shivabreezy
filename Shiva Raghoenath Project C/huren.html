@@ -3,14 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Theater Imperium</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Hier wordt het css bestand geimporteerd -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet"> <!-- Hier wordt het font "Montserrat" geimporteerd -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet"> <!-- Hier wordt het font "Montserrat" geimporteerd -->
 </head>
 <body>
 
 <header>
-	<nav class="hoofdmenu">
+	<nav class="hoofdmenu"> <!-- Begin van de navigatie -->
 		<div class="logo">
 			<a href="index.html"><img src="img/logo.png"></a>
 		</div>
@@ -35,7 +35,7 @@
 		<div class="line">
 			<img src="img/line.png">
 		</div>
-	</nav>
+	</nav> <!-- Einde van de navigatie -->
 </header>
 
 <main>
@@ -44,48 +44,48 @@
 </main>
 
 <section>
-	<form action="bevestiging.html" method="get" id="huren">
-			<label>Contactpersoon</label>
-			<input type="text" name="naam" placeholder="Vul hier uw voor- en achternaam in.">
-			<label>Aanhef</label>
-			<select name="aanhef" form="huren">
-				<option value="" disabled selected>Selecteer uw geslacht</option>
+	<form action="bevestiging.html" method="get" id="huren"> <!-- Begin van het formulier -->
+			<label for="contactpersoon">Contactpersoon*</label>
+			<input type="text" name="contactpersoon" id="contactpersoon" placeholder="Vul hier uw voor- en achternaam in.">
+				<label for="aanhef">Aanhef*</label>
+			<select name="aanhef" id="aanhef" form="huren">
+				<option value="" disabled selected>Selecteer uw geslacht*</option>
 				<option value="man">Man</option>
 				<option value="vrouw">Vrouw</option>
 			</select>
 			<br>
-			<label>Organisatie</label>
-			<input type="text" name="organisatie" placeholder="Vul hier uw organisatie in.">
-			<label>Soort evenement</label>
-			<input type="text" name="evenement" placeholder="Vul hier uw soort evenement in.">
-			<label>E-mailadres</label>
-			<input type="email" name="email" placeholder="Vul hier uw e-mailadres in.">
-			<label>Telefoonnummer</label>
-			<input type="number" name="tel" placeholder="Vul hier uw telefoonnummer in.">
-
-		<label>Begintijd</label>
-		<input type="time" name="tijd">
-		<label>Eindtijd</label>
-		<input type="time" name="tijd">
-		<label>Gewenste datum</label>
-		<input type="date" name="datum">
-		<label>Faciliteiten</label>
-		<input type="checkbox" name="toneel" value="toneel">Toneel
-		<input type="checkbox" name="decor" value="decor">Decor
-		<input type="checkbox" name="geluid" value="geluid">Geluid
-		<input type="checkbox" name="licht" value="licht">Licht
-		<input type="checkbox" name="projectie" value="projectie">Projectie
-		<input type="checkbox" name="afsluitering" value="afsluitering">Afsluitering
-		<input type="checkbox" name="overig" value="overig">Overig
+			<label for="organisatie">Organisatie*</label>
+				<input type="text" name="organisatie" id="organisatie" placeholder="Vul hier uw organisatie in.">
+			<label for="evenement">Soort evenement*</label>
+				<input type="text" name="evenement" id="evenement" placeholder="Vul hier uw soort evenement in.">
+			<label for="email">E-mailadres*</label>
+				<input type="email" name="email" id="email" placeholder="Vul hier uw e-mailadres in.">
+			<label for="tel">Telefoonnummer*</label>
+				<input type="number" name="tel" id="tel" placeholder="Vul hier uw telefoonnummer in.">
+			<label for>Begintijd*</label>
+				<input type="time" name="begintijd" id="begintijd">
+			<label for="eindtijd">Eindtijd*</label>
+				<input type="time" name="eindtijd" id="eindtijd">
+			<label for="datum">Gewenste datum*</label>
+				<input type="date" name="datum" id="datum">
+			<label>Faciliteiten*</label>
+			<label for="toneel"><input type="checkbox" name="toneel" id="toneel" value="toneel">Toneel</label>
+			<label for="decor"><input type="checkbox" name="decor" value="decor" id="decor">Decor</label>
+			<label for="geluid"><input type="checkbox" name="geluid" value="geluid" id="geluid">Geluid</label>
+			<label for="licht"><input type="checkbox" name="licht" value="licht" id="licht">Licht</label>
+			<label for="projectie"><input type="checkbox" name="projectie" value="projectie" id="projectie">Projectie</label>
+			<label for="afsluitering"><input type="checkbox" name="afsluitering" value="afsluitering" id="afsluitering">Afsluitering</label>
+			<label for="overig"><input type="checkbox" name="overig" value="overig" id="overig">Overig</label>
 			<br>
-		<label>Voorzieningen</label>
-		<input type="checkbox" name="toneel" value="toneel">Barpersoneel
-		<input type="checkbox" name="decor" value="decor">Technische ondersteuning
-		<br>
-		<input type="submit" value="Verzend" onclick="window.location='bevestiging.html';">
-	</form>
+			<label>Voorzieningen</label>
+			<label for="barpersoneel"><input type="checkbox" name="toneel" value="toneel" id="barpersoneel">Barpersoneel</label>
+			<label for="techondersteuning"><input type="checkbox" name="decor" value="decor" id="techondersteuning">Technische ondersteuning</label>
+			<br>
+			<input type="submit" value="Verzend" onclick="window.location='bevestiging.html';">
+	</form> <!-- Einde van het formulier -->
 </section>
-<footer>
+
+<footer> <!-- Begin van de footer -->
 	<div class="row">
 		<div class="col-footer">
 			<p class="footer-text">Volg ons</p>
@@ -107,5 +107,5 @@
 		<div class="col-footer">
 			<p>©2018 Theater Imperium.</p>
 		</div>
-</footer>
+</footer> <!-- Einde van de footer -->
 </html>
