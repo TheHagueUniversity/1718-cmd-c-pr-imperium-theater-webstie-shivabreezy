@@ -10,7 +10,7 @@
 <body>
 
 <header>
-	<nav class="hoofdmenu"> <!-- Begin van de navigatie -->
+	<nav class="hoofdmenu">
 		<div class="logo">
 			<a href="index.html"><img src="img/logo.png"></a>
 		</div>
@@ -44,7 +44,9 @@
 </main>
 
 <section>
-	<form action="bevestiging.html" method="get" id="huren"> <!-- Begin van het formulier -->
+	<!--In het formulier dient de gebruiker de gegevens in te voeren.-->
+	<form action="bevestiging.html" method="get" id="huren">
+		<!--De gebruiker dient hier persoonlijke gegevens in te voeren.-->
 			<label for="contactpersoon">Contactpersoon*</label>
 			<input type="text" name="contactpersoon" id="contactpersoon" placeholder="Vul hier uw voor- en achternaam in.">
 				<label for="aanhef">Aanhef*</label>
@@ -54,6 +56,7 @@
 				<option value="vrouw">Vrouw</option>
 			</select>
 			<br>
+
 			<label for="organisatie">Organisatie*</label>
 				<input type="text" name="organisatie" id="organisatie" placeholder="Vul hier uw organisatie in.">
 			<label for="evenement">Soort evenement*</label>
