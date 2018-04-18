@@ -1,9 +1,13 @@
+/* 1. ALGEMENE STYLING */
+
 body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 	color: #333333;
 }
+
+/* 2. TEKST ELEMENTEN */
 
 h1, h2, h3, h4{
 	text-transform: uppercase;
@@ -22,71 +26,18 @@ a:hover{
 	color: #D61549;
 }
 
-button{
-	font-family: Montserrat;
-	padding: 5px 10px;
-	text-transform: uppercase;
-	transition:all 0.3s ease;
-}
-
-main{
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-footer{
-	background-color: #505050;
-	color: #FFF;
-	padding: 10px;
-}
-
-header{
-	padding: 70px;
-}
-
 dt {
 	font-weight: bold;
 	padding-bottom: 10px;
 }
+
 dd {
 	margin: 0;
 	padding: 0px 0px 5px 0px
 }
 
-* {
-	box-sizing: border-box;
-}
-
-input[type=text], input[type=email], input[type=number], input[type=date], input[type=time], select, textarea {
-	width: 100%;
-	padding: 12px;
-	border: 2px solid #e4e4e4;
-	border-radius: 17px;
-	resize: vertical;
-	font-family: Montserrat;
-	font-size: 13px;
-}
-
-input[type=submit]{
-	color: #FFFFFF;
-	background-color: #D61549;
-	border-radius: 6px;
-	border-style: none;
-	font-family: Montserrat;
-	padding: 10px 20px;
-	text-transform: uppercase;
-	transition:all 0.3s ease;
-	float: right;
-	cursor: pointer;
-}
-
-input[type=submit]:hover{
-	opacity: 0.3;
-}
-
-::placeholder{
-	color: #999999;
+ul{
+	list-style-type: none;
 }
 
 label {
@@ -94,25 +45,77 @@ label {
 	display: inline-block;
 }
 
-article, section{
-	width: 95%;
-	margin-right: auto;
-	margin-left: auto;
-	padding-bottom: 90px;
-}
+/* 2.1 LINKS */
 
-.active{
+.link, .link-disabled{
 	color: #D61549;
+	transition:all 0.3s ease;
+	font-size: 13px;
 }
 
-.disabled{
-	color: #999999;
+.link:hover{
+	opacity: 0.3;
 }
 
-.disabled:hover{
-	color:#505050;
-	cursor: ;
+/* 2.2 DISABLED LINKS */
+
+.link-disabled{
+	color: #AEAEAE;
+	font-size: 13px;
+	text-transform: uppercase;
 }
+
+.link-disabled:hover{
+	color: #e4e4e4;
+}
+
+.link2{
+	float: right;
+	margin: 0px 50px;
+	margin-top: 30px;
+	color: #AEAEAE;
+	text-transform: uppercase;
+	transition:all 0.3s ease;
+	font-size: 13px;
+}
+
+.link2:hover{
+	color: #e4e4e4;
+}
+
+/* 3. FOOTER  */
+
+footer{
+	background-color: #505050;
+	color: #FFF;
+	padding: 10px;
+}
+
+.footer-text{
+	text-transform: uppercase;
+}
+
+.wittelogo{
+	width: 30%;
+	transition:all 0.3s ease;
+}
+
+.social-icon{
+	width: 15%;
+	transition:all 0.3s ease;
+}
+
+.social-icon:hover, .wittelogo:hover{
+	opacity: 0.5;
+}
+
+/* 4. HEADER */
+
+header{
+	padding: 70px;
+}
+
+/* 4.1 NAVIGATIE */
 
 .hoofdmenu {
 	border-width: 0px;
@@ -135,6 +138,32 @@ article, section{
 	text-transform: uppercase;
 }
 
+.nav{
+	position: absolute;
+	left: 500px;
+	top: 37px;
+	width: 940px;
+	height: 40px;
+}
+
+/* 4.2 ACTIEVE MENU ITEM */
+
+.active{
+	color: #D61549;
+}
+
+/* 4.3 DISABLED MENU ITEM */
+
+.disabled{
+	color: #999999;
+}
+
+.disabled:hover{
+	color: #e4e4e4;
+}
+
+/* 4.4 DROPDOWN MENU */
+
 .dropdown {
 	float: left;
 	overflow: hidden;
@@ -152,7 +181,6 @@ article, section{
 	margin: 0;
 	transition:all 0.3s ease;
 }
-
 
 .dropdown-content {
 	display: none;
@@ -178,70 +206,9 @@ article, section{
 
 .dropdown:hover .dropdown-content {
 	display: block;
-	}
-
-.banner-img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 95%;
 }
 
-.nav{
-	position: absolute;
-	left: 500px;
-	top: 37px;
-	width: 940px;
-	height: 40px;
-}
-
-.section1{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 95%;
-	padding-top: 70px;
-}
-
-.section1 img{
-	margin-left: auto;
-	margin-right: auto;
-	width: 45%;
-}
-
-.section1 p, .section2 p{
-	width: 40%;
-}
-
-.section2 img{
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-}
-
-.ghost{
-	border: 1px solid #D61549;
-	color: #D61549;
-	border-radius: 6px;
-	float: right;
-	transition:all 0.3s ease;
-}
-
-.ghost{
-	cursor: pointer;
-}
-
-.ghost:hover{
-	opacity: 0.3;
-}
-
-
-.ghost-disabled{
-	border: 1px solid #AEAEAE;
-	color: #AEAEAE;
-	border-radius: 6px;
-	float: right;
-}
+/* 4.5 LOGO */
 
 .logo img{
 	border-width: 0px;
@@ -266,6 +233,8 @@ article, section{
 	opacity: 0.5;
 }
 
+/* 4.6 HORIZONTALE LIJN */
+
 .line{
 	border-width: 0px;
 	position: absolute;
@@ -276,21 +245,140 @@ article, section{
 	opacity: 0.2;
 }
 
-.test1{
-	width: 50%;
+/* 5. BREADCRUMS & TITEL */
+
+main{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.test2{
-	width: 50%;
+/* 6. SECTIES & ARTIKELEN */
+
+article, section{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 90px;
 }
 
+/* 7. BUTTONS */
 
+button{
+	font-family: Montserrat;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	transition:all 0.3s ease;
+}
+
+/* 7.1 GHOST BUTTON */
+
+.ghost{
+	border: 1px solid #D61549;
+	color: #D61549;
+	border-radius: 6px;
+	float: right;
+	transition:all 0.3s ease;
+	cursor: pointer;
+}
+
+.ghost:hover{
+	opacity: 0.3;
+}
+
+.ghost2{
+	border: 1px solid #D61549;
+	color: #D61549;
+	border-radius: 6px;
+	transition:all 0.3s ease;
+	cursor: pointer;
+}
+
+.ghost2:hover{
+	opacity: 0.3;
+}
+
+/* 7.2 DISABLED GHOST BUTTON */
+
+.ghost-disabled{
+	border: 1px solid #AEAEAE;
+	color: #AEAEAE;
+	border-radius: 6px;
+	float: right;
+	transition:all 0.3s ease;
+}
+
+.ghost-disabled:hover{
+	opacity: 0.5;
+}
+
+/* 8. INVOERVELDEN. */
+
+input[type=text], input[type=email], input[type=number], input[type=date], input[type=time], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 2px solid #e4e4e4;
+	border-radius: 17px;
+	resize: vertical;
+	font-family: Montserrat;
+	font-size: 13px;
+}
+
+/* 8.1 INVOERVELD (BUTTON) */
+
+input[type=submit]{
+	color: #FFFFFF;
+	background-color: #D61549;
+	border-radius: 6px;
+	border-style: none;
+	font-family: Montserrat;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	transition:all 0.3s ease;
+	float: right;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+input[type=submit]:hover{
+	opacity: 0.3;
+}
+
+::placeholder{
+	color: #999999;
+}
+
+/* 9. BANNER */
+
+.banner{
+	float: left;
+	width: 100%;
+	padding: 10px 36px;
+}
+
+.banner-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+/* 10. GRID */
+
+* {
+	box-sizing: border-box;
+}
+
+/* 10.1 RIJ */
 
 .row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
+
+/* 10.2 KOLOMMEN (2) */
 
 .col-2 {
 	float: left;
@@ -299,14 +387,11 @@ article, section{
 	padding-top: 50px;
 }
 
-/*.col-2 img{*/
-	/*width: 100%;*/
-	/*height: 480px;*/
-/*}*/
-
 .col-2 p{
 	width: 85%;
 }
+
+/* 10.3 KOLOMMEN (3) */
 
 .col-3{
 	float: left;
@@ -324,11 +409,7 @@ article, section{
 	width: 85%;
 }
 
-.banner{
-	float: left;
-	width: 100%;
-	padding: 10px 36px;
-}
+/* 10.4 KOLOMMEN (FOOTER) */
 
 .col-footer{
 	float: left;
@@ -337,60 +418,12 @@ article, section{
 	padding-top: 50px;
 }
 
-.social-icon{
-    width: 15%;
-	transition:all 0.3s ease;
+.column2{
+	width: 100%;
+	height: 480px;
 }
 
-.social-icon:hover, .wittelogo:hover{
-	opacity: 0.5;
-}
-
-.wittelogo{
-	width: 30%;
-	transition:all 0.3s ease;
-}
-
-
-.label {
-	float: left;
-	width: 14%;
-}
-
-.table2 {
-	float: left;
-	width: 30%;
-	margin-top: 6px;
-}
-
-
-
-.link, .link2, .link-disabled{
-	color: #D61549;
-	transition:all 0.3s ease;
-	font-size: 13px;
-}
-
-.link:hover{
-	opacity: 0.3;
-}
-
-.link2{
-	float: right;
-	margin: 0px 50px;
-	margin-top: 30px;
-	color: #AEAEAE;
-}
-
-.link-disabled{
-	color: #AEAEAE;
-	font-size: 13px;
-	text-transform: uppercase;
-}
-
-.link-disabled:hover{
-	color:#505050;
-}
+/* 11. DAG VAN DE DATUM */
 
 .date, .date-disabled{
 	display: inline-block;
@@ -407,20 +440,21 @@ article, section{
 	background-color: #AEAEAE;
 }
 
-.footer-text{
-	text-transform: uppercase;
-}
+/* 12. CONTACT BOX */
 
 .contact-box{
 	background-color: #D61549;
 	color: #FFFFFF;
 	padding: 15px;
 	width: 50%;
+	margin-left: 100px;
 }
 
 .contact-box-text{
 	color: #FFFFFF;
 }
+
+/* 13. SELECTOR MAAND */
 
 .selector{
 	text-decoration: none;
@@ -432,10 +466,7 @@ article, section{
 	opacity: 0.3;
 }
 
-.column2{
-	width: 100%;
-	height: 480px;
-}
+/* 14. FOTO'S */
 
 .informatie-pics{
 	width: 90%;

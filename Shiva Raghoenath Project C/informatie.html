@@ -3,13 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Theater Imperium</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Hier wordt het css bestand geimporteerd -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet"> <!-- Hier wordt het font "Montserrat" geimporteerd -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet"> <!-- Hier wordt het font "Montserrat" geimporteerd -->
 </head>
 <body>
-
 <header>
+	<!--De navigatie van de website. Hier kan de gebruiker navigeren tussen pagina's.-->
 	<nav class="hoofdmenu">
 		<div class="logo">
 			<a href="index.html"><img src="img/logo.png"></a>
@@ -37,12 +37,12 @@
 		</div>
 	</nav>
 </header>
-
-<main><p><a href="index.html" class="link">Home</a> > Theater Huren > Informatie</p>
+<!--De breadcrumbs van de website. Hier kan de gebruiker terugverwezen worden naar de vorige pagina indien beschikbaar.-->
+<main><p><a href="index.html" class="link">Home</a> > Theater huren > Informatie</p>
 	<h1>Informatie</h1>
 </main>
 
-
+<!--Informatie met betrekking tot het theater.-->
 <section>
 <div class="row">
 	<div class="col-2">
@@ -55,7 +55,7 @@
 	</div>
 </div>
 </section>
-
+<!--Informatie met betrekking tot het huren van een theater.-->
 <section>
 	<h2>Het huren van Imperium</h2>
 		<p>De prijs voor een voorstellingsdag is 179,00 euro.
@@ -70,9 +70,9 @@
 		Alle informatie over de voorstelling wordt gratis op onze website geplaatst. Op verzoek zend ik de persadressen en de posterhanglijst.
 		Wij zijn een amateur-groep. Alle medewerkers van techniek en bar zijn leden. Zij doen het werk om de vereniging in stand te houden.
 		Voor verdere informatie en ruimte bezichtigen ben ik altijd beschikbaar, aanvragen per mail of telefoon ( 071-514 1035)</p>
-		<p>Om een theater te kunnen huren <a href="huren.html" class="link">klikt u hier.</a></p>
+		<p>Om een theater te kunnen huren klikt u hier. <button class="ghost2" onclick="window.location.href='huren.html'">Huren</button></p>
 </section>
-
+<!--Informatie met betrekking tot het algemene voorwaarden van het huren van een theater.-->
 <section>
 	<h2>Algemene voorwaarden</h2>
 		<ol>
@@ -90,15 +90,17 @@
 			<li>Huurder draagt er zorg voor dat het te plaatsen decor voldoet aan de in de bijlage gestelde brand- en veiligheidsvoorschriften.</li>
 		</ol>
 </section>
-
+<!--De footer van de website. Hier kan de gebruiker informatie omtrent social media, contactgegevens en copyright informatie vinden. -->
 <footer>
+	<!--Rij 1-->
 	<div class="row">
+		<!--Kolom 1-->
 		<div class="col-footer">
 			<p class="footer-text">Volg ons</p>
 			<a href="https://www.facebook.com/ToneelgroepImperium?fref=ts" target="_blank"><img src="img/facebook.svg" class="social-icon"></a>
 			<a href="https://twitter.com/imperiumtheater" target="_blank"><img src="img/twitter.svg" class="social-icon"></a>
 		</div>
-
+		<!--Kolom 2-->
 		<div class="col-footer">
 			<p class="footer-text">Contact</p>
 			<p>Oude Vest 33e
@@ -107,6 +109,7 @@
 				<br>
 				071 5141035</p>
 		</div>
+		<!--Kolom 3-->
 		<div class="col-footer">
 			<a href="index.html"><img src="img/logo-wit.png" class="wittelogo"></a>
 		</div>

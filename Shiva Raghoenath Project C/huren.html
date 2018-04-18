@@ -8,46 +8,46 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet"> <!-- Hier wordt het font "Montserrat" geimporteerd -->
 </head>
 <body>
-
 <header>
-	<nav class="hoofdmenu">
-		<div class="logo">
-			<a href="index.html"><img src="img/logo.png"></a>
-		</div>
-		<div class="nav">
-			<a href="index.html">Home</a>
-			<a href="agenda.html">Agenda</a>
-			<a class="disabled">Over</a>
-			<a class="disabled">Archief</a>
-			<a href="fotoboek.html">Fotoboek</a>
-			<div class="dropdown">
-				<button class="dropdown-knop">Theater Huren
-				</button>
-				<div class="dropdown-content">
-					<a href="informatie.html">Informatie</a>
-					<a href="faciliteiten.html">Faciliteiten</a>
-					<a href="huren.html">Huren</a>
-				</div>
+		<!--De navigatie van de website. Hier kan de gebruiker navigeren tussen pagina's.-->
+		<nav class="hoofdmenu">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png"></a>
 			</div>
-			<a class="disabled">Reserveren</a>
-			<a href="contact.html">Contact</a>
-		</div>
-		<div class="line">
-			<img src="img/line.png">
-		</div>
-	</nav> <!-- Einde van de navigatie -->
+			<div class="nav">
+				<a href="index.html">Home</a>
+				<a href="agenda.html">Agenda</a>
+				<a class="disabled">Over</a>
+				<a class="disabled">Archief</a>
+				<a href="fotoboek.html">Fotoboek</a>
+				<div class="dropdown">
+					<button class="dropdown-knop">Theater Huren
+					</button>
+					<div class="dropdown-content">
+						<a href="informatie.html">Informatie</a>
+						<a href="faciliteiten.html">Faciliteiten</a>
+						<a href="huren.html">Huren</a>
+					</div>
+				</div>
+				<a class="disabled">Reserveren</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<div class="line">
+				<img src="img/line.png">
+			</div>
+		</nav>
 </header>
-
+<!--De breadcrumbs van de website. Hier kan de gebruiker terugverwezen worden naar de vorige pagina indien beschikbaar.-->
 <main>
 <p><a href="index.html" class="link">Home</a> > Theater huren > Huren</p>
 <h1>Theater huren</h1>
 </main>
-
+<!--Hier vind de formulier om een theater te huren plaats.-->
 <section>
-	<!--In het formulier dient de gebruiker de gegevens in te voeren.-->
+	<!--In het formulier dient de gebruiker de gegevens (contactpersoon, aanhef, organisatie, soort evenement,
+	e-mailadres, telefoonnummer, begintijd, eindtijd, gewenste datum, faciliteiten en eventueel voorzieningen in te voeren.-->
 	<form action="bevestiging.html" method="get" id="huren">
-		<!--De gebruiker dient hier persoonlijke gegevens in te voeren.-->
-			<label for="contactpersoon">Contactpersoon*</label>
+		<label for="contactpersoon">Contactpersoon*</label>
 			<input type="text" name="contactpersoon" id="contactpersoon" placeholder="Vul hier uw voor- en achternaam in.">
 				<label for="aanhef">Aanhef*</label>
 			<select name="aanhef" id="aanhef" form="huren">
@@ -56,7 +56,6 @@
 				<option value="vrouw">Vrouw</option>
 			</select>
 			<br>
-
 			<label for="organisatie">Organisatie*</label>
 				<input type="text" name="organisatie" id="organisatie" placeholder="Vul hier uw organisatie in.">
 			<label for="evenement">Soort evenement*</label>
@@ -85,17 +84,19 @@
 			<label for="techondersteuning"><input type="checkbox" name="decor" value="decor" id="techondersteuning">Technische ondersteuning</label>
 			<br>
 			<input type="submit" value="Verzend" onclick="window.location='bevestiging.html';">
-	</form> <!-- Einde van het formulier -->
+	</form>
 </section>
-
-<footer> <!-- Begin van de footer -->
+	<!--De footer van de website. Hier kan de gebruiker informatie omtrent social media, contactgegevens en copyright informatie vinden. -->
+<footer>
+	<!--Rij 1-->
 	<div class="row">
+		<!--Kolom 1-->
 		<div class="col-footer">
 			<p class="footer-text">Volg ons</p>
 			<a href="https://www.facebook.com/ToneelgroepImperium?fref=ts" target="_blank"><img src="img/facebook.svg" class="social-icon"></a>
 			<a href="https://twitter.com/imperiumtheater" target="_blank"><img src="img/twitter.svg" class="social-icon"></a>
 		</div>
-
+		<!--Kolom 2-->
 		<div class="col-footer">
 			<p class="footer-text">Contact</p>
 			<p>Oude Vest 33e
@@ -104,11 +105,13 @@
 				<br>
 				071 5141035</p>
 		</div>
+		<!--Kolom 3-->
 		<div class="col-footer">
 			<a href="index.html"><img src="img/logo-wit.png" class="wittelogo"></a>
 		</div>
 		<div class="col-footer">
 			<p>©2018 Theater Imperium.</p>
 		</div>
-</footer> <!-- Einde van de footer -->
+</footer>
+</body>
 </html>
